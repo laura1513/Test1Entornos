@@ -1,5 +1,8 @@
 package test1tema3;
-
+/**
+ * 
+ * @author laura
+ */
 public class Test1Tema3 {
     /**
      * Método que multiplica dos números enteros
