@@ -17,7 +17,7 @@ public static int multiplica(int a, int b) {
         // TODO code application logic here
         int x=3;
         int y=6;
-        multiplica(x, y);
+        System.out.println(multiplica(x, y));
     }
     
 }
