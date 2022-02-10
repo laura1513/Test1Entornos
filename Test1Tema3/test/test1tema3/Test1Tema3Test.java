@@ -51,6 +51,18 @@ public class Test1Tema3Test {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+    /**
+     * Test con timeout
+     */
+    @Test (timeout=1000)
+    public void testMultiplicaTimeout() {
+        System.out.println("multiplica");
+        int a = 35000;
+        int b = 35000;
+        int result = Test1Tema3.multiplica(a, b);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 
     /**
      * Test of main method, of class Test1Tema3.
