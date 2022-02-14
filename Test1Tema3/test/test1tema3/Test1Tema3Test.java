@@ -54,7 +54,7 @@ public class Test1Tema3Test {
     /**
      * Test con timeout
      */
-    @Test (timeout=1000)
+    @Test (timeout=10)
     public void testMultiplicaTimeout() {
         System.out.println("multiplica");
         int a = 35000;

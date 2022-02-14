@@ -13,11 +13,21 @@ public class Test1Tema3 {
 public static int multiplica(int a, int b) {
     return a*b;
 }
+public static int factorial(int num) {
+    int factorial=num;
+    for (int i = (num-1); i > 1; i--) {
+        factorial=factorial*i;
+    }
+    return factorial;
+}
     public static void main(String[] args) {
         // TODO code application logic here
         int x=3;
         int y=6;
         System.out.println(multiplica(x, y));
+        
+        int numero=5;
+        System.out.println(factorial(numero));
     }
     
 }
