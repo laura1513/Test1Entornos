@@ -13,6 +13,11 @@ public class Test1Tema3 {
 public static int multiplica(int a, int b) {
     return a*b;
 }
+/**
+ * Método par acalcular ell factorial de un número
+ * @param num El número que se le introduce
+ * @return 
+ */
 public static int factorial(int num) {
     int factorial=num;
     for (int i = (num-1); i > 1; i--) {
