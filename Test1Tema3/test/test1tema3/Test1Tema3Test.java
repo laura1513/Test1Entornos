@@ -80,7 +80,7 @@ public class Test1Tema3Test {
     /**
      * Test of factorial method, of class Test1Tema3.
      */
-    @Test
+    @Test 
     public void testFactorial() {
         System.out.println("factorial");
         int num = 0;
@@ -90,5 +90,14 @@ public class Test1Tema3Test {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    
+    @Test (expected=IllegalArgumentException.class)
+    public void testFactorialNeg() {
+        System.out.println("factorial");
+        int num = 0;
+        int expResult = 0;
+        int result = Test1Tema3.factorial(num);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 }
