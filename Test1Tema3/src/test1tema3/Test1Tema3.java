@@ -20,6 +20,10 @@ public static int multiplica(int a, int b) {
  */
 public static int factorial(int num) {
     int factorial=num;
+    if(num<0 ) {
+        throw new
+            IllegalArgumentException("Factorial negativo!");
+    }
     for (int i = (num-1); i > 1; i--) {
         factorial=factorial*i;
     }
