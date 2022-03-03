@@ -92,7 +92,10 @@ public class Test1Tema3Test {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-
+    
+    /**
+     * Test a factorial en caso de que pase un número negativoc, lanzará una ecepción.
+     */
     @Test(expected = IllegalArgumentException.class)
     public void testFactorialNeg() {
         System.out.println("factorial");
