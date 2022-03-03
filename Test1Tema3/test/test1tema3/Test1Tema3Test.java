@@ -13,26 +13,27 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 
 /**
+ * Clase para testear el factorial y la multiplicación
  *
  * @author laura
  */
 public class Test1Tema3Test {
-    
+
     public Test1Tema3Test() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -51,10 +52,11 @@ public class Test1Tema3Test {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+
     /**
-     * Test con timeout
+     * Test con timeout del método multiplica
      */
-    @Test (timeout=10)
+    @Test(timeout = 10)
     public void testMultiplicaTimeout() {
         System.out.println("multiplica");
         int a = 35000;
@@ -80,7 +82,7 @@ public class Test1Tema3Test {
     /**
      * Test of factorial method, of class Test1Tema3.
      */
-    @Test 
+    @Test
     public void testFactorial() {
         System.out.println("factorial");
         int num = 3;
@@ -90,7 +92,8 @@ public class Test1Tema3Test {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    @Test (expected=IllegalArgumentException.class)
+
+    @Test(expected = IllegalArgumentException.class)
     public void testFactorialNeg() {
         System.out.println("factorial");
         int num = -1;
